@@ -1,0 +1,166 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Comida",
+      "productos": [
+        {
+          "id": 1,
+          "nombre": "Bebidas",
+          "marcas": [
+            {
+              "id": 1,
+              "nombre": "Coca-Cola",
+              "ventas": [
+                { "mes": "enero", "valor": 200 },
+                { "mes": "febrero", "valor": 150 },
+                { "mes": "marzo", "valor": 300 },
+                { "mes": "abril", "valor": 500 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "Snacks",
+          "marcas": [
+            {
+              "id": 2,
+              "nombre": "Zambos",
+              "ventas": [
+                { "mes": "enero", "valor": 130 },
+                { "mes": "febrero", "valor": 140 },
+                { "mes": "marzo", "valor": 200 },
+                { "mes": "abril", "valor": 250 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "Dulces",
+          "marcas": [
+            {
+              "id": 3,
+              "nombre": "Snickers",
+              "ventas": [
+                { "mes": "enero", "valor": 80 },
+                { "mes": "febrero", "valor": 300 },
+                { "mes": "marzo", "valor": 70 },
+                { "mes": "abril", "valor": 150 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Ropa",
+      "productos": [
+        {
+          "id": 1,
+          "nombre": "Camisas",
+          "marcas": [
+            {
+              "id": 4,
+              "nombre": "Polo",
+              "ventas": [
+                { "mes": "enero", "valor": 40 },
+                { "mes": "febrero", "valor": 30 },
+                { "mes": "marzo", "valor": 70 },
+                { "mes": "abril", "valor": 80 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "Jeans",
+          "marcas": [
+            {
+              "id": 5,
+              "nombre": "Levi's",
+              "ventas": [
+                { "mes": "enero", "valor": 100 },
+                { "mes": "febrero", "valor": 120 },
+                { "mes": "marzo", "valor": 180 },
+                { "mes": "abril", "valor": 90 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "Tenis",
+          "marcas": [
+            {
+              "id": 6,
+              "nombre": "Nike",
+              "ventas": [
+                { "mes": "enero", "valor": 200 },
+                { "mes": "febrero", "valor": 300 },
+                { "mes": "marzo", "valor": 180 },
+                { "mes": "abril", "valor": 150 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Tecnología",
+      "productos": [
+        {
+          "id": 1,
+          "nombre": "Celulares",
+          "marcas": [
+            {
+              "id": 7,
+              "nombre": "Apple",
+              "ventas": [
+                { "mes": "enero", "valor": 20 },
+                { "mes": "febrero", "valor": 15 },
+                { "mes": "marzo", "valor": 70 },
+                { "mes": "abril", "valor": 30 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nombre": "Laptops",
+          "marcas": [
+            {
+              "id": 8,
+              "nombre": "Dell",
+              "ventas": [
+                { "mes": "enero", "valor": 110 },
+                { "mes": "febrero", "valor": 275 },
+                { "mes": "marzo", "valor": 195 },
+                { "mes": "abril", "valor": 220 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "Audífonos",
+          "marcas": [
+            {
+              "id": 9,
+              "nombre": "Razer",
+              "ventas": [
+                { "mes": "enero", "valor": 30 },
+                { "mes": "febrero", "valor": 75 },
+                { "mes": "marzo", "valor": 75 },
+                { "mes": "abril", "valor": 80 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

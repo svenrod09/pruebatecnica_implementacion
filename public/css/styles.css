@@ -1,0 +1,74 @@
+/* Importar fuente */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  /* Paleta de colores*/
+  --primaryColor: #011627;
+  --secondaryColor: #a4bfeb;
+  --activeColor: #53d8fb;
+}
+
+/* Estructura del body */
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+  color: #212529;
+}
+
+/* Color de fondo primario */
+.primary-bg {
+  background-color: var(--primaryColor);
+}
+
+/* Navbar */
+.navbar-brand {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-brand:hover i {
+  animation: tilt-n-move-shaking 0.5s infinite;
+}
+
+/* Labels */
+label:hover i {
+  animation: tilt-n-move-shaking 0.5s infinite;
+}
+
+/* Título */
+h3:hover i {
+  animation: tilt-n-move-shaking 0.5s infinite;
+}
+
+/* Keyframes */
+@keyframes tilt-n-move-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0eg);
+  }
+
+  75% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

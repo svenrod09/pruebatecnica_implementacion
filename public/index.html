@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FontAwesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Ícono de la pestaña -->
+    <link rel="shortcut icon" href="resources/icon/icon.png" />
+
+    <title>Sales Report</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar primary-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <!-- Menú -->
+          <span class="ms-1 fw-bold fs-5">
+            <i class="fa-solid fa-bars fs-5 me-2"></i>Menu
+          </span>
+        </a>
+
+        <!-- Título -->
+        <a class="navbar-brand mx-auto" href="#">
+          <span class="ms-1 fw-bold fs-5">
+            <i class="fa-solid fa-chart-line fs-5 me-2"></i>Sales Report
+          </span>
+        </a>
+
+        <!-- Nombre de usuario -->
+        <a class="navbar-brand ml-auto" href="#">
+          <span class="ms-1 fw-bold fs-5">
+            <i class="fa-regular fa-circle-user fs-5 me-2"></i>User
+          </span>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Contenido -->
+    <div class="container py-3">
+      <div class="row">
+        <!-- Selects -->
+        <!-- Categoría -->
+        <div
+          class="col-12 col-lg-4 d-flex align-items-center justify-content-center mb-3"
+        >
+          <label class="fw-bold me-2" for="categoriaSelect"
+            ><i class="fa-solid fa-tags fa-sm me-1"></i>Categoría:</label
+          >
+          <select id="categoriaSelect"></select>
+        </div>
+
+        <!-- Producto -->
+        <div
+          class="col-12 col-lg-4 d-flex align-items-center justify-content-center mb-3"
+        >
+          <label class="fw-bold me-2" for="productoSelect"
+            ><i class="fa-solid fa-basket-shopping fa-sm me-1"></i
+            >Producto:</label
+          >
+          <select id="productoSelect"></select>
+        </div>
+
+        <!-- Marca -->
+        <div
+          class="col-12 col-lg-4 d-flex align-items-center justify-content-center mb-3"
+        >
+          <label class="fw-bold me-2" for="marcaSelect"
+            ><i class="fa-solid fa-certificate fa-sm me-1"></i>Marca:</label
+          >
+          <select id="marcaSelect"></select>
+        </div>
+
+        <!-- Encabezado del Gráfico -->
+        <div class="col-12 justify-content-center mt-3 mb-3">
+          <h3 class="text-center fw-bold">
+            <i class="fa-solid fa-chart-simple me-2"></i>Sales By Month for:
+          </h3>
+        </div>
+
+        <!-- Gráfico -->
+        <div class="col-12">
+          <div id="contenedor_grafico">
+            <canvas id="graficoVentas"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Chart JS (Librería para los gráficos) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Controlador de la Página-->
+    <script src="controllers/pageController.js"></script>
+  </body>
+</html>
